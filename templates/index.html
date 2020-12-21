@@ -9,6 +9,11 @@
     <div id="main">
         <h1> PFE 19 - ECE PARIS </h1>
 
+        {% if transcript != "" %}
+    <div id="speechContainer"> 
+        <p>{{transcript}}</p>
+    </div>
+        {% endif %}
     </div>
 </body>
 </html>
