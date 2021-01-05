@@ -1,3 +1,8 @@
+from flask import Flask, render_template, request
+import speech_recognition as sr 
+app = Flask(__name__)
+
+    
 @app.route("/")
 
 def record_audio():
@@ -15,3 +20,4 @@ def record_audio():
 
 
 if __name__ == "__main__":
+    app.run(debug=True, threaded=True)
