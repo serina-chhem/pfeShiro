@@ -5,7 +5,7 @@ app = Flask(__name__)
     
 @app.route("/")
 
-def record_audio():
+""" def record_audio():
     transcript = ""
     r = sr.Recognizer()
 
@@ -16,7 +16,7 @@ def record_audio():
         print('Vous dites : ' + transcript)
     
     
-    return render_template('index.html', transcript = transcript)
+    return render_template('index.html', transcript = transcript) """
 
 def index():
     return render_template('index.html')
