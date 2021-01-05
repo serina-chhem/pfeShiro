@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import speech_recognition as sr 
 app = Flask(__name__)
 
-    
 @app.route("/")
 
 def record_audio():
@@ -14,8 +13,6 @@ def record_audio():
         audio = r.listen(source)
         transcript = r.recognize_google(audio)
         print('Vous dites : ' + transcript)
-    
-    
     return render_template('index.html', transcript = transcript)
 
 
