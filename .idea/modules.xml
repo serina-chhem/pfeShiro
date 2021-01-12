@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pfeShiro.iml" filepath="$PROJECT_DIR$/.idea/pfeShiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pfeShiroGit.iml" filepath="$PROJECT_DIR$/.idea/pfeShiroGit.iml" />
     </modules>
   </component>
 </project>
